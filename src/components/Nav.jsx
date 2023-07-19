@@ -25,11 +25,11 @@ export default function Nav() {
   };
 
   return (
-<div className='basenav'>
+<div className='basenav shadow-sm'>
 <br />
     <br />
 
-    <Box sx={{ maxWidth: { xs: 450, sm: 1200 }, bgcolor: 'background.paper',marginLeft:"50px" }}>
+    <Box sx={{ maxWidth: { xs: 450, sm: 1200 }, bgcolor: 'background.paper',marginLeft:"50px" }} >
       <Tabs
         value={value}
         onChange={handleChange}

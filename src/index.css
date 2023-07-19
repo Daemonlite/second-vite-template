@@ -133,6 +133,11 @@ margin-top: 100px;
 
 @media (max-width: 800px) {
 
+  *{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    text-transform: capitalize;
+  }
    .divider{
     display: none;
    }
@@ -142,6 +147,7 @@ margin-top: 100px;
    }
    .allc{
     margin-left: -10px;
+    
    }
    .basenav{
     margin-top:20px;
@@ -151,5 +157,8 @@ margin-top: 100px;
    }
    .searchi{
     display: block;
+   }
+   .land{
+    width: 100%;
    }
 }
