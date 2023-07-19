@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import StarOutlineIcon from '@mui/icons-material/StarOutline';
-import Nav from "./Nav";
 const LandingPage = () => {
   useEffect(() => {
     // Get all carousel containers
@@ -37,8 +36,8 @@ const LandingPage = () => {
   }, []);
 
   return (
-    <><Nav />
-    <div className="land">
+    <>
+    <div className="land shadow">
 
 
       <br />
