@@ -58,37 +58,37 @@ export default function Nav() {
             <Tab icon={<WavesIcon />} onClick={() => navigate("/beach")} />
           </Tooltip>
           <Tooltip title="Bars and clubs">
-            <Tab icon={<NightlifeIcon />} />
+            <Tab icon={<NightlifeIcon />}  onClick={() => navigate("/bars")}/>
           </Tooltip>
           <Tooltip title="attractions">
             <Tab icon={<LocationOnIcon />} />
           </Tooltip>
           <Tooltip title="family apartments">
-            <Tab icon={<FamilyRestroomIcon />} />
+            <Tab icon={<FamilyRestroomIcon />} onClick={() => navigate("/")} />
           </Tooltip>
           <Tooltip title="fireplace">
-            <Tab icon={<FireplaceIcon />} />
+            <Tab icon={<FireplaceIcon />}  onClick={() => navigate("/")}/>
           </Tooltip>
           <Tooltip title="baths">
             <Tab icon={<HotTubIcon />} />
           </Tooltip>
           <Tooltip title="apartments">
-            <Tab icon={<ApartmentIcon />} />
+            <Tab icon={<ApartmentIcon />}onClick={() => navigate("/")} />
           </Tooltip>
           <Tooltip title="banks">
-            <Tab icon={<AccountBalanceIcon />} />
+            <Tab icon={<AccountBalanceIcon />} onClick={() => navigate("/")} />
           </Tooltip>
           <Tooltip title="home away from home">
             <Tab icon={<HomeIcon />} />
           </Tooltip>
           <Tooltip title="healthcare">
-            <Tab icon={<HealingIcon />} />
+            <Tab icon={<HealingIcon />}  onClick={() => navigate("/")}/>
           </Tooltip>
           <Tooltip title="Outdoor">
-            <Tab icon={<OutdoorGrillIcon />} />
+            <Tab icon={<OutdoorGrillIcon />} onClick={() => navigate("/")} />
           </Tooltip>
           <Tooltip title="top locations">
-            <Tab icon={<LeaderboardIcon />} />
+            <Tab icon={<LeaderboardIcon />} onClick={() => navigate("/")}/>
           </Tooltip>
         </Tabs>
       </Box>

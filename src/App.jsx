@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import LandingPage from "./components/LandingPage";
 import Nav from "./components/Nav";
 import Beach from "./badges/Beach";
+import Bars from "./badges/Bars";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
 <Routes>
 <Route path='/' element={<LandingPage/>}/>
 <Route path='/beach'  element={<Beach/>}/>
+<Route path="/bars" element={<Bars/>} />
 </Routes>
 
 

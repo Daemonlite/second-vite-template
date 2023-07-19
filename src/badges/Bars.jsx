@@ -1,4 +1,5 @@
-import beach from "../props";
+
+import spots from "../spots";
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
@@ -7,12 +8,12 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 
-export default function Products() {
+export default function Bars() {
   return (
     <>
       {/* <h3 style={{marginLeft:"20px"}}>Beach Houses</h3> */}
       <div className="cards">
-        {beach.items.map((res) => (
+        {spots.items.map((res) => (
           <Card key={res.id} sx={{ maxWidth: 345 }}>
             <CardMedia
               sx={{ height: 160 }}
@@ -26,7 +27,7 @@ export default function Products() {
                 {res.location}
               </Typography>
               <Typography variant="body2" color="text.secondary">
-                {res.count} rooms available
+                {res.count}  various locations
                 <br />
                 {res.descr}
               </Typography>
