@@ -30,7 +30,7 @@ export default function Nav() {
     <br />
     <br />
     <br />
-    <Box sx={{ maxWidth: { xs: 450, sm: 1200 }, bgcolor: 'background.paper',marginLeft:"150px" }}>
+    <Box sx={{ maxWidth: { xs: 450, sm: 1200 }, bgcolor: 'background.paper',marginLeft:"50px" }}>
       <Tabs
         value={value}
         onChange={handleChange}
