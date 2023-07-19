@@ -15,7 +15,7 @@ margin-top: 100px;
 .navbar{
   margin-top: 10px;
   background-color: white !important;
-  display: none;
+  
   
 }
 .navbar-brand{
@@ -133,5 +133,11 @@ margin-top: 100px;
 
    .basenav{
     margin-left: -30px;
+   }
+   .allc{
+    margin-left: -10px;
+   }
+   .basenav{
+    margin-top: 100px;
    }
 }
