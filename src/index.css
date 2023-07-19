@@ -15,6 +15,7 @@ margin-top: 100px;
 .navbar{
   margin-top: 10px;
   background-color: white !important;
+  display: none;
   
 }
 .navbar-brand{
@@ -125,5 +126,12 @@ margin-top: 100px;
 @media (max-width: 800px) {
   .hide{
     display: block !important;
+   }
+   .divider{
+    display: none;
+   }
+
+   .basenav{
+    margin-left: -100px;
    }
 }

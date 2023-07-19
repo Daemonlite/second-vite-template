@@ -25,15 +25,19 @@ export default function Nav() {
   };
 
   return (
-<>
+<div className='basenav'>
 <br />
     <br />
     <br />
     <br />
-    <Box sx={{ maxWidth: { xs: 720, sm: 1200 }, bgcolor: 'background.paper',marginLeft:"150px" }}>
+    <Box sx={{ maxWidth: { xs: 450, sm: 1200 }, bgcolor: 'background.paper',marginLeft:"150px" }}>
       <Tabs
         value={value}
         onChange={handleChange}
+        variant="scrollable"
+        scrollButtons
+        allowScrollButtonsMobile
+        aria-label="scrollable force tabs example"
         
         
       >
@@ -53,7 +57,7 @@ export default function Nav() {
  
       </Tabs>
     </Box>
-<hr />
-</>
+<hr className='divider' />
+</div>
   );
 }
