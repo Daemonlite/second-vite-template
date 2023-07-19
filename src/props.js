@@ -1,73 +1,91 @@
-export const props = {
+ const beach = {
       "items": [
         {
           "id":1,
-          "image": "https://r-xx.bstatic.com/xdata/images/xphoto/263x210/57584488.jpeg?k=d8d4706fc72ee789d870eb6b05c0e546fd4ad85d72a3af3e30fb80ca72f0ba57&o=",
-          "locType": "Hotels",
-          "count":546
+          "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhY2glMjBob3VzZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+          "descr": "Lorem ipsum dolor sit amet",
+          "count":56,
+          "location":"alpha,Alcatraz"
         },
         {
           "id":2,
-          "image": "https://r-xx.bstatic.com/xdata/images/hotel/263x210/119467716.jpeg?k=f3c2c6271ab71513e044e48dfde378fcd6bb80cb893e39b9b78b33a60c0131c9&o=",
-          "locType": "Apartments",
-          "count":546
+          "image": "https://plus.unsplash.com/premium_photo-1684348962187-988fc3d7f024?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGJlYWNoJTIwaG91c2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+          "descr": "Lorem ipsum dolor sit amet",
+          "count":46,
+          "location":"Nopi,India"
         },
-  
         {
           "id":3,
-          "image": "https://q-xx.bstatic.com/xdata/images/xphoto/263x210/45450084.jpeg?k=f8c2954e867a1dd4b479909c49528531dcfb676d8fbc0d60f51d7b51bb32d1d9&o=",
-          "locType": "Resorts",
-          "count":546
+          "image": "https://images.unsplash.com/photo-1528913775512-624d24b27b96?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmVhY2glMjBob3VzZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+          "descr": "Lorem ipsum dolor sit amet",
+          "count":16,
+          "location":"repsin,Mongolia"
         },
-  
         {
           "id":4,
-          "image": "https://q-xx.bstatic.com/xdata/images/hotel/263x210/100235855.jpeg?k=5b6e6cff16cfd290e953768d63ee15f633b56348238a705c45759aa3a81ba82b&o=",
-          "locType": "villas",
-          "count":546
+          "image": "https://images.unsplash.com/photo-1544143086-828f66ac3945?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmVhY2glMjBob3VzZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+          "descr": "Lorem ipsum dolor sit amet",
+          "count":54,
+          "location":"cancun,mexico"
         },
-  
         {
           "id":5,
-          "image": "https://q-xx.bstatic.com/xdata/images/hotel/263x210/52979454.jpeg?k=6ac6d0afd28e4ce00a8f817cc3045039e064469a3f9a88059706c0b45adf2e7d&o=",
-          "locType": "cabins",
-          "count":546
+          "image": "https://images.unsplash.com/photo-1597211833712-5e41faa202ea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YmVhY2glMjBob3VzZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+          "descr": "Lorem ipsum dolor sit amet",
+          "count":12,
+          "location":"kokrobite,Ghana"
         },
-  
         {
           "id":6,
-          "image": "https://r-xx.bstatic.com/xdata/images/xphoto/263x210/45450074.jpeg?k=7039b03a94f3b99262c4b3054b0edcbbb91e9dade85b6efc880d45288a06c126&o=",
-          "locType": "cottages",
-          "count":546
+          "image": "https://images.unsplash.com/photo-1577372970039-2ac351969c87?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YmVhY2glMjBob3VzZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+          "descr": "Lorem ipsum dolor sit amet",
+          "count":10,
+          "location":"Gautalema,Mexico"
         },
-  
         {
           "id":7,
-          "image": "https://r-xx.bstatic.com/xdata/images/xphoto/263x210/45450090.jpeg?k=52f6b8190edb5a9c91528f8e0f875752ce55a6beb35dc62873601e57944990e4&o=",
-          "locType": "glamping",
-          "count":546
+          "image": "https://media.istockphoto.com/id/1093526800/photo/mackinaw-island-life-in-michigan.webp?b=1&s=170667a&w=0&k=20&c=Bg1fmY7NeOHKkqGMryetTBsIWsyveiJRqVLcMjvw-7s=",
+          "descr": "Lorem ipsum dolor sit amet",
+          "count":10,
+          "location":"Dante,tempest"
         },
-  
         {
           "id":8,
-          "image": "https://q-xx.bstatic.com/xdata/images/xphoto/263x210/45450058.jpeg?k=2449eb55e8269a66952858c80fd7bdec987f9514cd79d58685651b7d6e9cdfcf&o=",
-          "locType": "serviced apartments",
-          "count":546
+          "image": "https://images.unsplash.com/photo-1511840831832-3efd661c1d0f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGJlYWNoJTIwaG91c2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+          "descr": "Lorem ipsum dolor sit amet",
+          "count":11,
+          "location":"Clover,Sukehiro"
         },
-  
         {
           "id":9,
-          "image": "https://r-xx.bstatic.com/xdata/images/xphoto/263x210/45450113.jpeg?k=76b3780a0e4aacb9d02ac3569b05b3c5e85e0fd875287e9ac334e3b569f320c7&o=",
-          "locType": "Holiday homes",
-          "count":546
+          "image": "https://images.unsplash.com/photo-1511840636560-acee95b3a83f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGJlYWNoJTIwaG91c2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+          "descr": "Lorem ipsum dolor sit amet",
+          "count":12,
+          "location":"Akaza,slayer"
         },
-  
         {
           "id":10,
-          "image": "https://q-xx.bstatic.com/xdata/images/xphoto/263x210/45450073.jpeg?k=795a94c30433de1858ea52375e8190a962b302376be2e68aa08be345d936557d&o=",
-          "locType": "guest houses",
-          "count":546
+          "image": "https://images.unsplash.com/photo-1613553497126-a44624272024?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGJlYWNoJTIwaG91c2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+          "descr": "Lorem ipsum dolor sit amet",
+          "count":20,
+          "location":"Gapitol,Ibiza"
         },
+        {
+          "id":11,
+          "image": "https://images.unsplash.com/photo-1597475681177-809cfdc76cd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGJlYWNoJTIwaG91c2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+          "descr": "Lorem ipsum dolor sit amet",
+          "count":18,
+          "location":"Texas,Flo"
+        },
+        {
+          "id":12,
+          "image": "https://images.unsplash.com/photo-1522759531475-b05ba50ae2b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGJlYWNoJTIwaG91c2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+          "descr": "Lorem ipsum dolor sit amet",
+          "count":15,
+          "location":"lakeside,Accra"
+        },
+        
+
   
 
   
@@ -76,4 +94,6 @@ export const props = {
       
     
   };
+
+  export  default beach
   
